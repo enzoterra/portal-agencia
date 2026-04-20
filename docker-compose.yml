@@ -1,0 +1,22 @@
+# CASO USE DOCKER
+
+services:
+  app:
+    build: .
+
+    ports:
+      - "8000:8000"
+
+    volumes:
+      - .:/var/www/html
+      - vendor_data:/var/www/html/vendor
+
+    networks:
+      - postgres
+
+networks:
+  postgres:
+    external: true
+
+volumes:
+  vendor_data:

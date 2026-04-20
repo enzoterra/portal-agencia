@@ -1,0 +1,10 @@
+users          N:1  clients          (um cliente pode ter múltiplos usuários de acesso)
+clients        1:N  payments
+clients        1:N  invoices
+clients        1:N  reports
+clients        1:N  media_links
+clients        1:N  calendar_events
+clients        1:1  google_oauth_tokens
+payments       N:1  invoices         (opcional: pagamento pode referenciar NF)
+reports        1:N  report_versions
+audit_logs     N:1  users
