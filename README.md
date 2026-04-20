@@ -71,7 +71,7 @@ A plataforma conecta-se à conta Google da agência para sincronizar automaticam
 
 ---
 
-## 💻 Telas do Sistema
+## 💻 Telas do Sistema (algumas para exemplo)
 
 <table align="center">
   <tr>
