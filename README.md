@@ -71,6 +71,37 @@ A plataforma conecta-se à conta Google da agência para sincronizar automaticam
 
 ---
 
+## 💻 Telas do Sistema
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="Screens/dashboard-client.png" width="400" alt="Dashboard do Cliente">
+      <br>
+      <b>Dashboard do Cliente</b>
+    </td>
+    <td align="center">
+      <img src="Screens/calendar-client.png" width="400" alt="Calendário de Eventos">
+      <br>
+      <b>Calendário de Eventos</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="Screens/payments-client.png" width="400" alt="Lista de Pagamentos">
+      <br>
+      <b>Gestão de Pagamentos</b>
+    </td>
+    <td align="center">
+      <img src="Screens/settings-admin.png" width="400" alt="Configurações do Admin">
+      <br>
+      <b>Configurações (Painel Admin)</b>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 🏗️ Arquitetura
 
 O projeto segue uma arquitetura organizada em **domains**, separando as responsabilidades por contexto de negócio:
