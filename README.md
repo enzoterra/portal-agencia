@@ -102,7 +102,7 @@ app/
 | Camada | Tecnologia |
 |---|---|
 | Backend | Laravel 11, PHP 8.2 |
-| Banco de dados | MySQL |
+| Banco de dados | PostgreSQL |
 | Frontend | Blade + Tailwind CSS |
 | Permissões | Spatie Laravel Permission |
 | Google APIs | google/apiclient (Calendar + Drive) |
@@ -119,7 +119,7 @@ app/
 ### Pré-requisitos
 - PHP 8.2+
 - Composer
-- MySQL
+- PostgreSQL
 - Node.js + NPM
 
 ### Passos
@@ -152,9 +152,9 @@ Configure as seguintes entradas no `.env`:
 
 ```env
 # Banco de dados
-DB_CONNECTION=mysql
+DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
-DB_PORT=3306
+DB_PORT=5432
 DB_DATABASE=portal_agencia
 DB_USERNAME=seu_usuario
 DB_PASSWORD=sua_senha
